@@ -7,7 +7,7 @@ end
 # The "pipes" || = or. This is saying that if the board returns nil, return an empty array.  So, either display the current board, or a new one.
 
 # WIN_COMBINATIONS within the body of TicTacToe
-
+board = [" "," "," "," "," "," "," "," "," "]
 WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
